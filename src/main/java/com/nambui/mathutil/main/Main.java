@@ -20,7 +20,7 @@ public class Main {
         //                  Given n = 0
         //                  Invoke getFactorial(n = 0)
         //Expected Result: 1;  //0! ==1 ????
-        long expected = 10;  //em hy vọng 1 dc trả về
+        long expected = 1;  //em hy vọng 1 dc trả về
         int n = 0;          //nếu anh đưa vào 0!
         long actual = MathUtility.getFactorial(n);    //chạy hàm mới biết
         
